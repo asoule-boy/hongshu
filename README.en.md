@@ -102,7 +102,7 @@ def get_words_js(js):   #运行js代码，返回words列表
 ```
 GitHub仓库中有```testJs.py```文件,运行如下。
 <img src="./006.png">
-获取到words列表就可以按照之前发布的内容的进行爬取了。
+获取到words列表就可以用正则替换掉span标签，然后就可以正常解析你想要的内容了。
 #### 附上修改后的完整代码
 ```python
 import requests
